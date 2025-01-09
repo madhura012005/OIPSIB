@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comaptible" contents="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Mayuresh's Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-gray {
+            color: gray;
+
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 84px;
+            color: gray;
+            width: 154px;
+            font-size: 9px;
+
+        }
+
+        .footer {
+            background-color: rgb(16, 18, 35);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+            ;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Mayuresh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple">Mayuresh</span>
+
+                <div> and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Web development is the process of building and maintaining websites, involving frontend (user
+                        interface), backend (server and database), and sometimes full-stack (both). Key tools include
+                        HTML, CSS, JavaScript, frameworks (e.g., React, Django), and databases (e.g., MySQL). It focuses
+                        on responsive design, APIs, and SEO to create functional, user-friendly websites.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="fb.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer Facebook(2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Node.js is a fast, open-source server-side runtime built on Google’s V8 engine, enabling
+                        JavaScript to run on the server. Its non-blocking, event-driven architecture makes it ideal for
+                        real-time apps, APIs, and data streaming. With npm's vast library ecosystem, Node.js supports
+                        efficient, scalable, and modern web development.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="instagram.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Instagram(2015-2017)
+                    </div>
+                    <div class="vertical-desc">
+
+                        HTML development for Instagram involves creating responsive layouts for posts, stories, and ads
+                        using HTML, CSS, and JavaScript. It integrates media elements, aligns with Instagram's API and
+                        design guidelines, and uses meta tags for optimized embeds and compatibility across devices.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="twitter.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Twitter (2018-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        HTML development for Twitter involves embedding tweets, ads, and content using HTML, CSS, and
+                        JavaScript, supported by Twitter's API and embed codes. Meta tags optimize link previews,
+                        hashtags, and mentions, ensuring compatibility, responsiveness, and a seamless user experience
+                        across devices.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="fb.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Facebook (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        HTML development for Facebook involves embedding posts, ads, and features using HTML, CSS, and
+                        JavaScript, along with tools like the Graph API and Social Plugins. Open Graph meta tags enhance
+                        link previews for better engagement, focusing on compatibility, responsiveness, and seamless
+                        integration
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="youtube.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer Youtube(2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        HTML development for YouTube involves embedding videos using the IFrame API or embed codes,
+                        styled with CSS and enhanced with JavaScript for interactivity, focusing on responsiveness,
+                        autoplay, and customization for a seamless user experience.
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Mayuresh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact us</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact us</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact us</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.mayureshsportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editior'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
